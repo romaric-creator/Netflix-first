@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-size: cover;
+    min-height: 100vh;
+}
+ img{
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        object-fit: cover;
+        z-index: -10;;
+    }
+    .cont{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background:linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8));
+    }
+.cont header{
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   span{
+    font-size: 2em;
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+   }
+}

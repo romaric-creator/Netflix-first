@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-size: cover;
+    min-height: 100vh;
+}
+ img{
+        width: 100%;
+        height: 100vh;
+        po
+        object-fit: cover;
+        z-index: -10;;
+    }
+.cont{
+   
+}
